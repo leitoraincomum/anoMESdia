@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Nome e RA de todos os componentes:
+    EVERTON JUNIOR MORENO - 2920482011008
+    FERNANDA CRISTINA DE SOUZA FERNANDES - 2920482011032
+    Objetivo:
+    84. Utilizando os aplicativos da aula:
+    11 – App 2 – Ano/Mês/Dia;
+    fazer a seguinte alteração:
+    I. Proponha e faça alterações no Aplicativo (no mínimo 3 alterações).
+
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:background="#A80BC4"
+    android:layoutMode="clipBounds"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_ExibirResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Última idade calculada:"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txt_Exibir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar Dados"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txt_Ano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Ano(s)"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txt_Mes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Mes(es)"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txt_Dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Idade - Dia(s)"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_Converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Dias"
+        android:textAlignment="center"
+        app:backgroundTint="#075B0F" />
+
+    <TextView
+        android:id="@+id/txt_Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+</LinearLayout>
